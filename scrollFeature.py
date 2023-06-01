@@ -16,14 +16,12 @@ while True:
         fingers, img = detector.fingersUp(img, lmlist)
 
         if(fingers == [0,0,0,0,0]):
-            py.scroll(-50)
+            py.scroll(-500)
         elif(fingers == [1,1,1,1,1]):
-            py.scroll(50)
+            py.scroll(500)
        
 
     
-    
-
     cv2.imshow("Video Feed",img)
     key = cv2.waitKey(1)
     if(key == 27):
