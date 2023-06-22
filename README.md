@@ -31,7 +31,7 @@ This project aims to enable gesture recognition using OpenCV and Mediapipe, allo
 4. Perform various hand gestures in front of the camera to control the devices.
 
 ## Project Structure 
-.
+    .
     ├── BrightnessControl.py                  # File handling Brightness Control
     ├── HandTrackingModule.py                   # File responsible for Hand Detection and tracking 
     ├── MouseControl.py                     # File handling Mouse control functions like pointing and clicking. 
